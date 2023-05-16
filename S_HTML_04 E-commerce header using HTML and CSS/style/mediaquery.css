@@ -1,0 +1,56 @@
+/* start mediaquery for header */
+
+@media (max-width: 992px){
+    .left .cat{
+        padding:0 15px;
+    }
+    .left .cat .cattoggle{
+        display:none;
+    }
+    .left .cat .catDown{
+        margin-left: 30px;
+    }
+    .left .cat .catLinks.show{
+        width: 160px;
+    }
+    .header .left .mobile{
+        display: block;
+        cursor: pointer;
+        margin-left: 30px;
+        font-size: 25px;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+}
+.header .left .mobile:hover{
+    color: var(--main-color);
+}
+.left .links ul{
+    display: none;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+    .left .links ul.show{
+        display: block;
+        position: absolute;
+        top: 44px;
+        border-top: 2px solid var(--main-color);
+        background-color: #474744;
+        padding: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .left .links ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .left .links ul li:hover{
+        margin-left: 8px;
+    }
+}
+/* end mediaquery for header */

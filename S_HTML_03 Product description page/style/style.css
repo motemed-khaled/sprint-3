@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 30px;
+}
+.productname h1{
+    color: blue;
+    font-weight: bold;
+}
+.productname hr{
+    border-top: 2px solid black;
+}
+.container .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.container img{
+    margin:  auto 25px;
+    border: 2px solid blue;
+    object-fit: cover;
+}
+.desc h4{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.desc ul{
+    margin-left: 50px;
+    margin-bottom: 15px;
+}

@@ -100,14 +100,14 @@ body{
     border: 1px solid #fff;
     transition: var(--main-transtion);
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     -webkit-transition: var(--main-transtion);
     -moz-transition: var(--main-transtion);
     -ms-transition: var(--main-transtion);
     -o-transition: var(--main-transtion);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .container .content .music-data div i:hover{
     background-color: #fff;
@@ -176,6 +176,10 @@ body{
     -moz-transition: var(--main-transtion);
     -ms-transition: var(--main-transtion);
     -o-transition: var(--main-transtion);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .popup .setting .iconDiv i:hover{
     color: #fff;

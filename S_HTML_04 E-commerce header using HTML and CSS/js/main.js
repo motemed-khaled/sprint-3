@@ -14,7 +14,7 @@ allLi.forEach((li) => {
 // start toggle menu
 let toggleButton = document.querySelector(".mobile");
 toggleButton.addEventListener("click", () => {
-    document.querySelector(".left .links ul").classList.toggle("show");
+document.querySelector(".left .links ul").classList.toggle("show");
 })
 // end toggle menu
 

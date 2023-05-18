@@ -1,0 +1,19 @@
+
+@media(max-width:767px){
+    .section{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .container .content{
+        margin-top: 50px;
+        padding: 14px;
+    } 
+    .popup{
+        width: 90%;
+    }
+    }

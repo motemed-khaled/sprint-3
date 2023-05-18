@@ -10,8 +10,9 @@ showButton.addEventListener("click", () => {
 let iconStart = document.querySelectorAll(".play");
 iconStart.forEach(icon => {
     icon.addEventListener("click", (e) => {
+        
         //trigger audio
-        e.target.nextElementSibling.play()
+        e.target.nextElementSibling.play();
         
         // set overlay 
         document.querySelector(".over-lay").style.display = "block";
@@ -103,8 +104,7 @@ iconStart.forEach(icon => {
         // like click action 
         iconLike.addEventListener("click", () => {
             document.querySelector(".popup .setting  .like").classList.toggle("clicked");
-        })
-
+        });
 
         iconDiv.appendChild(iconLeft);
         iconDiv.appendChild(iconPlay);
@@ -129,6 +129,13 @@ iconStart.forEach(icon => {
         });
       
         popDiv.appendChild(closeSpan);
+
+        
+        // check end of song 
+        e.target.nextElementSibling.addEventListener("ended", () => {
+            e.target.nextElementSibling.currentTime = 0;
+            iconRight.click();
+        })
 
          // append div in parent
          popDiv.appendChild(imageDiv);
